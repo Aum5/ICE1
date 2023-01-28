@@ -20,7 +20,7 @@ public class CardTrick {
             Card card = new Card();
             int one =(int)(1+(Math.random()*14)); 
             card.setValue(one);
-            // 
+            
             card.setSuit(Card.SUITS[((int)(+(Math.random()*4)))]);
             String two = card.getSuit();
             hand[i]=new Card(one,two);
@@ -80,6 +80,7 @@ public class CardTrick {
         System.out.println("My hobbies:");
         System.out.println("-- Gaming");
         System.out.println("-- Reading books");
+	System.out.println("-- Watching Anime");
 
         System.out.println();
         
